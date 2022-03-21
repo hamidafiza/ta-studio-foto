@@ -41,4 +41,22 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function adminlte_image(){
+        // return 'https://picsum.photos/300/300';
+
+        // Image statis di folder public/images
+        return asset('img/avatar6.png'); 
+
+        // image sesuai 
+        // return asset('images/'.Auth::user()->avatar);
+    }
+
+    public function adminlte_desc(){
+        return 'That\'s a nice guy';
+    }
+
+    public function adminlte_profile_url(){
+        return 'profile/username';
+    }
 }
