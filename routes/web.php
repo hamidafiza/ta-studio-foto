@@ -21,7 +21,12 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/booking', [App\Http\Controllers\BookingController::class, 'index'])->name('booking');
+
+// Route-route untuk testing
 Route::get('/tes', function(){
-    return view('tes');
+    return view('testing.tes');
+});
+Route::get('/ck', function(){
+    return view('testing.ckeditor');
 });
 
