@@ -30,3 +30,7 @@ Route::get('/ck', function(){
     return view('testing.ckeditor');
 });
 
+Route::get('/lp', function(){
+    return view('lp_template.main');
+});
+
