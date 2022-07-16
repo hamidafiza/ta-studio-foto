@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Auth::routes();
 
@@ -30,7 +30,7 @@ Route::get('/ck', function(){
     return view('testing.ckeditor');
 });
 
-Route::get('/lp', function(){
+Route::get('/', function(){
     return view('lp_template.main');
 });
 

@@ -1921,6 +1921,9 @@ nav {
 nav.hide {
   transform: scale(0);
 }
+nav.show {
+  transform: scale(1);
+}
 
 nav a {
   color: #fff;

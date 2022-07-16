@@ -40,7 +40,7 @@
 								<a href="#home"><img src="{{asset('photography-cl')}}/img/logo.png" alt=""></a>
 							</div>
 							<div class="main-menubar d-flex align-items-center">
-								<nav class="hide">
+								<nav class="show">
 									<a href="#home">Home</a>
 									<a href="#about">About Me</a>
 									<a href="#gallery">Gallery</a>
@@ -49,7 +49,7 @@
 									<a href="generic.html">Generic</a>
 									<a href="elements.html">Elements</a>							
 								</nav>
-								<div class="menu-bar"><span class="lnr lnr-menu"></span></div>
+								<!-- <div class="menu-bar"><span class="lnr lnr-cross"></span></div> -->
 							</div>
 						</div>
 					</div>
