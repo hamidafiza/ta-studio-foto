@@ -31,6 +31,6 @@ Route::get('/ck', function(){
 });
 
 Route::get('/', function(){
-    return view('lp_template.main');
+    return view('landingpage');
 });
 
