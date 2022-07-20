@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Auth::routes();
-
+Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/booking', [App\Http\Controllers\BookingController::class, 'index'])->name('booking');
 

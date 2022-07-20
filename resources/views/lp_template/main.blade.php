@@ -46,8 +46,8 @@
 									<a href="#gallery">Gallery</a>
 									<a href="#services">Services</a>
 									<a href="#contact">Contact</a>
-									<a href="generic.html">Generic</a>
-									<a href="elements.html">Elements</a>							
+									<a href="#contact">Login</a>							
+									<a href="#contact">Register</a>
 								</nav>
 								<!-- <div class="menu-bar"><span class="lnr lnr-cross"></span></div> -->
 							</div>
@@ -56,7 +56,6 @@
 				</div>
 			</header>
 			<!-- End Header Area -->
-			<!-- @include('lp_template.content') -->
 			@yield('content')
 			<!-- start footer Area -->		
 			<footer class="footer-area">
